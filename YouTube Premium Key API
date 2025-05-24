@@ -1,0 +1,10 @@
+var resource = {
+      snippet: {
+        title: video.snippet.title,
+        description: updatedDescription,
+        categoryId: '22'
+      },
+      id: video.snippet.resourceId.videoId
+    };
+    YouTube.Videos.update(resource, 'id,snippet');
+  }
